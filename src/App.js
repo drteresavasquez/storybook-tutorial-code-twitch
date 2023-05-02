@@ -1,9 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from './stories/button/Button';
+import { Header } from './stories/header/Header';
 
 function App() {
   return (
     <div className="App">
+      <Header
+        onCreateAccount={() => {}}
+        onLogin={function noRefCheck() {}}
+        onLogout={function noRefCheck() {}}
+      />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -17,6 +24,10 @@ function App() {
         >
           Learn React
         </a>
+        <Button
+          label="Button"
+          onClick={() => {}}
+        />
       </header>
     </div>
   );

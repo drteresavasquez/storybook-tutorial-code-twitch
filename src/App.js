@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Button } from './stories/button/Button';
+import { ButtonComp } from './stories/button/Button';
 import { Header } from './stories/header/Header';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         >
           Learn React
         </a>
-        <Button
+        <ButtonComp
           label="Button"
           onClick={() => {}}
         />
